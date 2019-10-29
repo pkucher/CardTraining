@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630BB86022CF783A0047709F /* Mimos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BB85F22CF783A0047709F /* Mimos.swift */; };
+		6359BFD522CE98850034723F /* libPods-CardTraining.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6359BFD422CE98850034723F /* libPods-CardTraining.a */; };
 		635DABEE22C50B6400F334C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635DABED22C50B6400F334C3 /* AppDelegate.swift */; };
-		635DABF022C50B6400F334C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635DABEF22C50B6400F334C3 /* ViewController.swift */; };
-		635DABF322C50B6400F334C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635DABF122C50B6400F334C3 /* Main.storyboard */; };
 		635DABF522C50B6500F334C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635DABF422C50B6500F334C3 /* Assets.xcassets */; };
 		635DABF822C50B6500F334C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635DABF622C50B6500F334C3 /* LaunchScreen.storyboard */; };
+		635DAC0022C50BDA00F334C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635DABFF22C50BDA00F334C3 /* MainViewController.swift */; };
+		635DAC0E22C511D100F334C3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635DAC0D22C511D100F334C3 /* CardView.swift */; };
+		635DAC1022C5125600F334C3 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635DAC0F22C5125600F334C3 /* ViewExtension.swift */; };
+		63A89A5222CBA7AE009AD7E2 /* CardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A89A5122CBA7AD009AD7E2 /* CardTableView.swift */; };
+		63BE7C5C22CD306C00CB85E4 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BE7C5B22CD306B00CB85E4 /* CardTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6359BFA422CE8EC70034723F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		630BB85F22CF783A0047709F /* Mimos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mimos.swift; sourceTree = "<group>"; };
+		6359BF9522CE8EB80034723F /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BF9722CE8EB80034723F /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BF9922CE8EB80034723F /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFA522CE90BD0034723F /* libPods-CardTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-CardTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFA722CE90CD0034723F /* libRxCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFA922CE90CD0034723F /* libRxRelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxRelay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFAB22CE90CD0034723F /* libRxSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFAD22CE91260034723F /* libPods-CardTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-CardTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFB722CE95400034723F /* libRxCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFB922CE95400034723F /* libRxRelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxRelay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFBB22CE95400034723F /* libRxSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFC422CE969F0034723F /* libRxCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFC622CE969F0034723F /* libRxRelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxRelay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFC822CE969F0034723F /* libRxSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359BFD422CE98850034723F /* libPods-CardTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-CardTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		635DABEA22C50B6400F334C3 /* CardTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635DABED22C50B6400F334C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		635DABEF22C50B6400F334C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		635DABF222C50B6400F334C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635DABF422C50B6500F334C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635DABF722C50B6500F334C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635DABF922C50B6500F334C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635DABFF22C50BDA00F334C3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		635DAC0D22C511D100F334C3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		635DAC0F22C5125600F334C3 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewExtension.swift; path = ../../../Documents/HeaderandFooterTraining/HeaderandFooterTraining/Utils/ViewExtension.swift; sourceTree = "<group>"; };
+		63A89A5122CBA7AD009AD7E2 /* CardTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableView.swift; sourceTree = "<group>"; };
+		63BE7C5B22CD306B00CB85E4 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		8B8A1036E54A9C9F4FC8BEE9 /* libPods-CardTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF00FA59D694135F482C4C8 /* Pods-CardTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTraining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardTraining/Pods-CardTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9755B6D47480F064F29D84 /* Pods-CardTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTraining.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardTraining/Pods-CardTraining.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6359BFD522CE98850034723F /* libPods-CardTraining.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1B297A86E40CA3B99942D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF00FA59D694135F482C4C8 /* Pods-CardTraining.debug.xcconfig */,
+				BA9755B6D47480F064F29D84 /* Pods-CardTraining.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		635DABE122C50B6400F334C3 = {
 			isa = PBXGroup;
 			children = (
 				635DABEC22C50B6400F334C3 /* CardTraining */,
 				635DABEB22C50B6400F334C3 /* Products */,
+				1A1B297A86E40CA3B99942D3 /* Pods */,
+				D6D490A83454DD26014508EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,40 @@
 			isa = PBXGroup;
 			children = (
 				635DABED22C50B6400F334C3 /* AppDelegate.swift */,
-				635DABEF22C50B6400F334C3 /* ViewController.swift */,
-				635DABF122C50B6400F334C3 /* Main.storyboard */,
 				635DABF422C50B6500F334C3 /* Assets.xcassets */,
 				635DABF622C50B6500F334C3 /* LaunchScreen.storyboard */,
 				635DABF922C50B6500F334C3 /* Info.plist */,
+				635DABFF22C50BDA00F334C3 /* MainViewController.swift */,
+				635DAC0F22C5125600F334C3 /* ViewExtension.swift */,
+				635DAC0D22C511D100F334C3 /* CardView.swift */,
+				63A89A5122CBA7AD009AD7E2 /* CardTableView.swift */,
+				63BE7C5B22CD306B00CB85E4 /* CardTableViewCell.swift */,
+				630BB85F22CF783A0047709F /* Mimos.swift */,
 			);
 			path = CardTraining;
+			sourceTree = "<group>";
+		};
+		D6D490A83454DD26014508EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6359BFD422CE98850034723F /* libPods-CardTraining.a */,
+				6359BFC422CE969F0034723F /* libRxCocoa.a */,
+				6359BFC622CE969F0034723F /* libRxRelay.a */,
+				6359BFC822CE969F0034723F /* libRxSwift.a */,
+				6359BFB722CE95400034723F /* libRxCocoa.a */,
+				6359BFB922CE95400034723F /* libRxRelay.a */,
+				6359BFBB22CE95400034723F /* libRxSwift.a */,
+				6359BFAD22CE91260034723F /* libPods-CardTraining.a */,
+				6359BFA722CE90CD0034723F /* libRxCocoa.a */,
+				6359BFA922CE90CD0034723F /* libRxRelay.a */,
+				6359BFAB22CE90CD0034723F /* libRxSwift.a */,
+				6359BFA522CE90BD0034723F /* libPods-CardTraining.a */,
+				6359BF9522CE8EB80034723F /* RxCocoa.framework */,
+				6359BF9722CE8EB80034723F /* RxRelay.framework */,
+				6359BF9922CE8EB80034723F /* RxSwift.framework */,
+				8B8A1036E54A9C9F4FC8BEE9 /* libPods-CardTraining.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635DABFC22C50B6500F334C3 /* Build configuration list for PBXNativeTarget "CardTraining" */;
 			buildPhases = (
+				DC501F476D4E835D8A0E0A83 /* [CP] Check Pods Manifest.lock */,
 				635DABE622C50B6400F334C3 /* Sources */,
 				635DABE722C50B6400F334C3 /* Frameworks */,
 				635DABE822C50B6400F334C3 /* Resources */,
+				6359BFA422CE8EC70034723F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +205,54 @@
 			files = (
 				635DABF822C50B6500F334C3 /* LaunchScreen.storyboard in Resources */,
 				635DABF522C50B6500F334C3 /* Assets.xcassets in Resources */,
-				635DABF322C50B6400F334C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC501F476D4E835D8A0E0A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		635DABE622C50B6400F334C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635DABF022C50B6400F334C3 /* ViewController.swift in Sources */,
 				635DABEE22C50B6400F334C3 /* AppDelegate.swift in Sources */,
+				63BE7C5C22CD306C00CB85E4 /* CardTableViewCell.swift in Sources */,
+				630BB86022CF783A0047709F /* Mimos.swift in Sources */,
+				635DAC0E22C511D100F334C3 /* CardView.swift in Sources */,
+				63A89A5222CBA7AE009AD7E2 /* CardTableView.swift in Sources */,
+				635DAC1022C5125600F334C3 /* ViewExtension.swift in Sources */,
+				635DAC0022C50BDA00F334C3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		635DABF122C50B6400F334C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				635DABF222C50B6400F334C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		635DABF622C50B6500F334C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +382,7 @@
 		};
 		635DABFD22C50B6500F334C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF00FA59D694135F482C4C8 /* Pods-CardTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +401,7 @@
 		};
 		635DABFE22C50B6500F334C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9755B6D47480F064F29D84 /* Pods-CardTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

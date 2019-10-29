@@ -1,0 +1,6 @@
+module Pods_CardTraining {
+  umbrella header "Pods-CardTraining-umbrella.h"
+
+  export *
+  module * { export * }
+}
